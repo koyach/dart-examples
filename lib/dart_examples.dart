@@ -71,6 +71,7 @@ void benchmarkStringAndStringBuff(String str)
 
 }
 
+/*
 void main() {
   fizzBuzz();
   print(reverseString("Hello Dart!"));
@@ -83,3 +84,4 @@ void main() {
   Spicy jalapeno bacon ipsum dolor amet aute voluptate tail, short loin pork belly eiusmod pastrami chuck ut ham in. Commodo ea pariatur minim fatback, biltong hamburger ground round spare ribs turducken officia. Occaecat kevin fugiat proident t-bone est pork loin shankle culpa pork fatback ut dolore. Hamburger mollit ribeye eiusmod, in do corned beef id. Beef ribs nostrud magna ham strip steak ut sed. Velit shoulder bacon boudin pancetta minim chicken do.
   """);
 }
+*/
