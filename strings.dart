@@ -27,8 +27,18 @@ String reverseString(String str) {
   return reversed;
 }
 
+String reverseWordsInString(String str)
+{
+  List words = str.split(" ");
+  String out = "";
+
+  words.reversed.forEach((word) => out += word + " ");
+  return out.trim();
+}
+
 void main() {
   fizzBuzz();
   print(reverseString("Hello Dart!"));
+  reverseWordsInString("The quick brown fox jumps over the lazy dog");
 
 }
