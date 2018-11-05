@@ -17,6 +17,18 @@ void fizzBuzz([int until = 100]) {
   }
 }
 
+String reverseString(String str) {
+  var reversed = "";
+
+  for(var pos = str.length - 1; pos >= 0; pos--) {
+    reversed += str[pos];
+  }
+
+  return reversed;
+}
+
 void main() {
   fizzBuzz();
+  print(reverseString("Hello Dart!"));
+
 }
