@@ -50,28 +50,3 @@ String reverseWordsInStringEfficient(String str)
   
   return buffer.toString();
 }
-
-void benchmarkStringAndStringBuff(String str)
-{
-  String outStr;
-  DateTime start; 
-  int duration;
-
-  start = DateTime.now();
-  for (var i = 0; i < 10000; i++) {
-    outStr = reverseWordsInString(str);
-  }
-
-  duration = DateTime.now().microsecondsSinceEpoch - start.microsecondsSinceEpoch;
-  print("$outStr ---- reverseWordsInString time: $duration");
-
-  start = DateTime.now();
-  for (var i = 0; i < 10000; i++) {
-    outStr = reverseWordsInStringEfficient(str);
-  }
-
-  duration = DateTime.now().microsecondsSinceEpoch - start.microsecondsSinceEpoch;
-  print("$outStr ---- reverseWordsInStringEfficient time: $duration");
-
-}
-
